@@ -24,39 +24,41 @@
 
     <header class="header-underline">
       <div class="container flex">
-        <nav class="main-nav">
+        <nav class="main-nav  flex">
           <a href="./index.html" lang="en" class="logo"
-            ><span class="text">Web</span>Studio</a
+            ><span class="logo__text">Web</span>Studio</a
           >
 
-          <ul class="list flex">
-            <li class="main-nav-item">
-              <a href="./index.html" class="item ">Студия</a>
+          <ul class="list flex main-nav">
+            <li class="main-nav__item">
+              <a href="./index.html" class="main-nav__link">Студия</a>
             </li>
-            <li class="main-nav-item">
-              <a href="./portfolio.html" class="item current">Портфолио</a>
+            <li class="main-nav__item">
+              <a href="./portfolio.html" class="main-nav__link main-nav__current">Портфолио</a>
             </li>
-            <li class="main-nav-item"><a href="" class="item">Контакты</a></li>
+            <li class="main-nav__item"><a href="" class="main-nav__link">Контакты</a></li>
           </ul>
         </nav>
 
-        <ul class="list connect-header">
-          <li class="connect-header-list">
-            <a href="mailto:info@devstudio.com" class="item "> <svg class="mail">
-              <use href="./images/icons.svg#icon-mail"></use>
-            </svg>
+        <ul class="list connect-header flex">
+          <li class="connect-header__item ">
+            <a href="mailto:info@devstudio.com" class="connect-header__link ">
+              <svg class="connect-header__mail">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="connect-header-list">
-            <a href="tel:+380961111111" class="item "><svg class="phone">
-              <use href="./images/icons.svg#icon-smartphone"></use>
-            </svg>+38 096 111 11 11</a>
+          <li class="connect-header__item">
+            <a href="tel:+380961111111" class="connect-header__link "
+              ><svg class="connect-header__phone">
+                <use href="./images/icons.svg#icon-smartphone"></use></svg
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
     </header>
-
     <main>
       <!-- Portfolio buttons -->
 
