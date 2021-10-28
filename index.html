@@ -469,7 +469,7 @@
       <section class="section">
         <div class="container">
           <h2 class="title">Постоянные клиенты</h2>
-          <ul class="list flex ">
+          <ul class="list flex customers ">
             <li class="customers__item">
               <a href="/" class="customers__link"
                 ><svg class="customers__icon" width="106" height="60">
@@ -513,40 +513,43 @@
       </section>
     </main>
     <!-- footer -->
-    <footer class="main-footer">
+
+
+
+    <footer class="footer-bg">
       <div class="container flex">
-        <div class="footer-adres">
-          <a href="./index.html" lang="en" class="logo"
-            ><span class="text">Web</span>Studio
+        <div class="wrap-address">
+          <a href="./index.html" lang="en" class="logo fotter-logo"
+            ><span class="logo__text">Web</span>Studio
           </a>
 
           <address class="address">
-            <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
+            <p class="address__text">г. Киев, пр-т Леси Украинки, 26</p>
 
             <ul class="list contact-footer">
-              <li class="contact-footer-list">
-                <a href="mailto:info@devstudio.com" class="item"
+              <li class="address__item">
+                <a href="mailto:info@devstudio.com" class="address__link"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="contact-footer-list">
-                <a href="tel:+380961111111" class="item">+38 096 111 11 11</a>
+              <li class="address__item">
+                <a href="tel:+380961111111" class="address__link">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
         <div class="footer-join">
-          <h3 class="footer-join-text">присоединяйтесь</h3>
+          <h3 class="footer-join__text">присоединяйтесь</h3>
           <ul class="list flex">
             <li class="social__item">
-              <a href="" class="social__link">
-                <svg class="social__icon">
+              <a href="" class="social__link footer-icon-bg ">
+                <svg class="social__icon ">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social__item">
-              <a href="" class="social__link">
+              <a href="" class="social__link footer-icon-bg">
                 <svg class="social__icon">
                   <use
                     href="./images/icons.svg#icon-twitter"
@@ -557,7 +560,7 @@
               </a>
             </li>
             <li class="social__item">
-              <a href="" class="social__link">
+              <a href="" class="social__link footer-icon-bg">
                 <svg class="social__icon">
                   <use
                     href="./images/icons.svg#icon-facebook"
@@ -568,7 +571,7 @@
               </a>
             </li>
             <li class="social__item">
-              <a href="" class="social__link">
+              <a href="" class="social__link footer-icon-bg">
                 <svg class="social__icon">
                   <use
                     href="./images/icons.svg#icon-linkedin"
@@ -582,20 +585,20 @@
         </div>
         <!-- Подпишитесь на рассылку -->
         <div class="sign-us flex">
-          <label for="email-footer" class="sign-us-text"
+          <label for="email-footer" class="sign-us__text"
             >Подпишитесь на рассылку</label
           >
           <form class="flex">
             <input
               type="email"
-              class="sign-us-input"
+              class="sign-us__input"
               id="email-footer"
               placeholder="E-mail"
               name="email"
             />
-            <button type="submit" class="sign-us-btn">
+            <button type="submit" class="sign-us__btn ">
               Подписаться
-              <svg class="icon-send">
+              <svg class="sign-us__icon">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
