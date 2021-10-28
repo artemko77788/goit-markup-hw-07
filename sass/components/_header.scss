@@ -1,24 +1,5 @@
-// logo
-.logo {
-  font-family: $logo-font;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  color: $primary-text-color;
-  text-decoration: none;
-  margin-right: 94px;
 
-  &:hover,
-  &:focus {
-    cursor: pointer;
-  }
-
-  &__text {
-    color: $accent-color;
-  }
-}
-
-.main-nav {
+{
   &__link {
     text-decoration: none;
     font-weight: 500;
@@ -60,31 +41,21 @@
   &__current {
     color: $accent-color;
   }
-
-
-
-
-
-  
 }
 
-
-
-
-.connect-header{
-
+.connect-header {
   margin-left: auto;
 
-  &__link{
+  &__link {
     display: flex;
     align-items: center;
-  color: $secondery-text-color;
-  text-decoration: none;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  padding: 32px 0;
-  transition: color $duration $duration;
+    color: $secondery-text-color;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    padding: 32px 0;
+    transition: color $duration $duration;
   }
   &__link:hover,
   &__link:focus {
@@ -93,25 +64,16 @@
   .connect-header__item:not(:last-child) {
     margin-right: 50px;
   }
-&__mail {
+  &__mail {
     width: 16px;
     height: 12px;
     margin-right: 10px;
     fill: currentColor;
-   
   }
   &__phone {
     width: 10px;
     height: 16px;
     margin-right: 10px;
     fill: currentColor;
-    
   }
-  
-
-
 }
-
-
-
-
