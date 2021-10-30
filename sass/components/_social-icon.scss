@@ -3,10 +3,10 @@
 .social {
     justify-content: center;
   
-    &__item:not(:last-child) {
+    .social__item:not(:last-child) {
       margin-right: 10px;
     }
-    &__link {
+    .social__link {
       display: flex;
       width: 44px;
       height: 44px;
@@ -17,7 +17,7 @@
       align-items: center;
       transition: background-color $duration $cubic, fill $duration $cubic;
     }
-    &__icon {
+    .social__icon {
       width: 20px;
       height: 20px;
     }

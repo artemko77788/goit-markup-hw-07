@@ -1,6 +1,6 @@
 
 .main-nav{
-  &__link {
+  .main-nav__link {
     text-decoration: none;
     font-weight: 500;
     line-height: 1.2;
@@ -16,13 +16,13 @@
     color: $accent-color;
   }
 
-  &__item {
+  .main-nav__item {
     position: relative;
   }
-  &__item:not(:last-child) {
+  .main-nav__item:not(:last-child) {
     margin-right: 50px;
   }
-  &__link::after {
+  .main-nav__link::after {
     content: "";
     background: $accent-color;
     height: 4px;
@@ -34,11 +34,11 @@
     opacity: 0;
   }
 
-  &__current::after {
+  .main-nav__current::after {
     opacity: 1;
   }
 
-  &__current {
+  .main-nav__current {
     color: $accent-color;
   }
 }
@@ -46,7 +46,7 @@
 .connect-header {
   margin-left: auto;
 
-  &__link {
+  .connect-header__link {
     display: flex;
     align-items: center;
     color: $secondery-text-color;
@@ -64,13 +64,13 @@
   .connect-header__item:not(:last-child) {
     margin-right: 50px;
   }
-  &__mail {
+  .connect-header__mail {
     width: 16px;
     height: 12px;
     margin-right: 10px;
     fill: currentColor;
   }
-  &__phone {
+  .connect-header__phone {
     width: 10px;
     height: 16px;
     margin-right: 10px;

@@ -1,13 +1,13 @@
 .our-features{
 
-    &__item {
+  .our-features__item {
         display: flex;
         width: 270px;
         flex-wrap: wrap;
         margin-right: 30px;
       }
 
-    &__subtitle {
+      .our-feature__subtitle {
         font-weight: 700;
         font-size: 14px;
         line-height: 1.2;
@@ -15,7 +15,7 @@
         margin-bottom: 10px;
       }
 
-      &__text {
+      .our-features__text {
         color: $secondery-text-color;
         font-weight: 400;
         font-size: 14px;
@@ -23,7 +23,7 @@
       }
       
     
-      &__bg {
+      .our-features__bg {
         display: flex;
         width: 270px;
         height: 120px;
@@ -35,12 +35,12 @@
       }
 
 
-      &__icon {
+      .our-features__icon {
         display: flex;
         fill: $primary-text-color;
       }
       
-      &__item:not(:last-child) {
+      .our-features__item:not(:last-child) {
         margin-right: 30px;
       }
       

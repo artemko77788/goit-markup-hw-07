@@ -1,12 +1,12 @@
 .customers{
-    &__item:not(:last-child) {
+  .customers__item:not(:last-child) {
         margin-right: 30px;
       }
 
 
 
   
-  &__link {
+  .customers__link {
     width: 170px;
     height: 92px;
     display: flex;
@@ -27,7 +27,7 @@
   
 
 
-  &__icon {
+  .customers__icon {
     display: inline-block;
     border: none;
     fill: currentColor;
