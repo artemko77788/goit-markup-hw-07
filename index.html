@@ -31,18 +31,22 @@
 
           <ul class="list flex main-nav">
             <li class="main-nav__item">
-              <a href="./index.html" class="main-nav__link main-nav__current">Студия</a>
+              <a href="./index.html" class="main-nav__link main-nav__current"
+                >Студия</a
+              >
             </li>
             <li class="main-nav__item">
               <a href="./portfolio.html" class="main-nav__link">Портфолио</a>
             </li>
-            <li class="main-nav__item"><a href="" class="main-nav__link">Контакты</a></li>
+            <li class="main-nav__item">
+              <a href="" class="main-nav__link">Контакты</a>
+            </li>
           </ul>
         </nav>
 
         <ul class="list connect-header flex">
-          <li class="connect-header__item ">
-            <a href="mailto:info@devstudio.com" class="connect-header__link ">
+          <li class="connect-header__item">
+            <a href="mailto:info@devstudio.com" class="connect-header__link">
               <svg class="connect-header__mail">
                 <use href="./images/icons.svg#icon-mail"></use>
               </svg>
@@ -50,9 +54,11 @@
             >
           </li>
           <li class="connect-header__item">
-            <a href="tel:+380961111111" class="connect-header__link "
+            <a href="tel:+380961111111" class="connect-header__link"
               ><svg class="connect-header__phone">
-                <use href="./images/icons.svg#icon-smartphone"></use></svg>+38 096 111 11 11</a>
+                <use href="./images/icons.svg#icon-smartphone"></use></svg
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -68,7 +74,11 @@
           </button>
           <div data-modal class="backdrop is-hidden">
             <div class="backdrop__modal">
-              <button data-modal-close type="button" class="backdrop__button-close">
+              <button
+                data-modal-close
+                type="button"
+                class="backdrop__button-close"
+              >
                 <svg class="backdrop__icon-close" width="11" height="11">
                   <use href="./images/icons.svg#icon-close"></use>
                 </svg>
@@ -83,7 +93,13 @@
                   <svg class="modal__icon">
                     <use href="./images/icons.svg#icon-man"></use>
                   </svg>
-                  <input type="text" id="name" class="modal__input" name="name" autofocus/>
+                  <input
+                    type="text"
+                    id="name"
+                    class="modal__input"
+                    name="name"
+                    autofocus
+                  />
                 </div>
 
                 <label for="tel" class="modal__item">Телефон </label>
@@ -91,7 +107,12 @@
                   <svg class="modal__icon">
                     <use href="./images/icons.svg#icon-phone"></use>
                   </svg>
-                  <input type="tel" id="tel" class="modal__input" name="phone" />
+                  <input
+                    type="tel"
+                    id="tel"
+                    class="modal__input"
+                    name="phone"
+                  />
                 </div>
 
                 <label for="email" class="modal__item">Почта </label>
@@ -113,8 +134,13 @@
                   placeholder="Введите текст"
                 ></textarea>
 
-                <label class=" modal__item-checkbox">
-                  <input type="checkbox" class="modal__checkbox" name="check" checked />
+                <label class="modal__item-checkbox">
+                  <input
+                    type="checkbox"
+                    class="modal__checkbox"
+                    name="check"
+                    checked
+                  />
                   Соглашаюсь с рассылкой и принимаю
                   <a href="/index.html" class="modal__contract"
                     >Условия договора</a
@@ -124,7 +150,9 @@
                   </svg>
                 </label>
 
-                <button type="submit" class="backdrop__button-send">Отправить</button>
+                <button type="submit" class="backdrop__button-send">
+                  Отправить
+                </button>
               </form>
             </div>
           </div>
@@ -180,7 +208,7 @@
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class=" our-features__subtitle">Современные технологии</h3>
+              <h3 class="our-features__subtitle">Современные технологии</h3>
               <p class="our-features__text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
@@ -231,11 +259,7 @@
         </div>
       </section>
 
-
-      
       <!-- Наша команда -->
-
-
 
       <section class="section team-bg">
         <div class="container">
@@ -469,7 +493,7 @@
       <section class="section">
         <div class="container">
           <h2 class="title">Постоянные клиенты</h2>
-          <ul class="list flex customers ">
+          <ul class="list flex customers">
             <li class="customers__item">
               <a href="/" class="customers__link"
                 ><svg class="customers__icon" width="106" height="60">
@@ -514,8 +538,6 @@
     </main>
     <!-- footer -->
 
-
-
     <footer class="footer-bg">
       <div class="container flex">
         <div class="wrap-address">
@@ -533,18 +555,25 @@
                 >
               </li>
               <li class="address__item">
-                <a href="tel:+380961111111" class="address__link">+38 096 111 11 11</a>
+                <a href="tel:+380961111111" class="address__link"
+                  >+38 096 111 11 11</a
+                >
               </li>
             </ul>
           </address>
         </div>
         <div class="footer-join">
           <h3 class="footer-join__text">присоединяйтесь</h3>
-          <ul class="list flex">
+          <ul class="list flex social">
             <li class="social__item">
-              <a href="" class="social__link footer-icon-bg ">
-                <svg class="social__icon ">
-                  <use href="./images/icons.svg#icon-instagram"></use>
+              <a href="" class="social__link footer-icon-bg">
+                <svg class="social__icon">
+                  <use
+                    class="social__link-footer"
+                    href="./images/icons.svg#icon-instagram"
+                    width="20"
+                    height="20"
+                  ></use>
                 </svg>
               </a>
             </li>
@@ -552,6 +581,7 @@
               <a href="" class="social__link footer-icon-bg">
                 <svg class="social__icon">
                   <use
+                    class="social__link-footer"
                     href="./images/icons.svg#icon-twitter"
                     width="20"
                     height="20"
@@ -563,6 +593,7 @@
               <a href="" class="social__link footer-icon-bg">
                 <svg class="social__icon">
                   <use
+                    class="social__link-footer"
                     href="./images/icons.svg#icon-facebook"
                     width="20"
                     height="20"
@@ -574,6 +605,7 @@
               <a href="" class="social__link footer-icon-bg">
                 <svg class="social__icon">
                   <use
+                    class="social__link-footer"
                     href="./images/icons.svg#icon-linkedin"
                     width="20"
                     height="20"
@@ -596,7 +628,7 @@
               placeholder="E-mail"
               name="email"
             />
-            <button type="submit" class="sign-us__btn ">
+            <button type="submit" class="sign-us__btn">
               Подписаться
               <svg class="sign-us__icon">
                 <use href="./images/icons.svg#icon-send"></use>

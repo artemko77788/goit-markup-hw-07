@@ -18,7 +18,7 @@
   .address__item:not(:last-child) {
     margin-bottom: 9px;
   }
-  .address__link{
+  .address__link {
     font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
@@ -28,15 +28,11 @@
   &__link:focus {
     color: $accent-color;
   }
-
 }
-
-
-
 
 /* footert join us */
 
-.footer-join{
+.footer-join {
   .footer-join__text {
     color: $white-color;
     text-transform: uppercase;
@@ -46,14 +42,7 @@
     letter-spacing: 0.03em;
     margin-bottom: 20px;
   }
-
 }
-
-
-
-
-
-
 
 .sign-us {
   flex-flow: column;
@@ -67,16 +56,16 @@
     color: $white-color;
     margin-bottom: 20px;
   }
-  .sign-us__input{
+  .sign-us__input {
     color: $white-color;
     padding: 15px 16px;
-  
+
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     width: 358px;
     height: 50px;
-  
+
     color: $white-color;
   }
 
@@ -103,11 +92,4 @@
     height: 24px;
     margin-left: 10px;
   }
-  
-
 }
-
-
-
-
-
